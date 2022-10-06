@@ -1,0 +1,637 @@
+.container{
+  padding-left:0;
+  margin-left:0;
+
+}
+.logo{
+  width: 196px;
+height: 56px;
+margin: 34.72px 1144px 30px 100px;
+}
+.navBar{
+  background-color: rgba(0, 0, 0, 0.1);
+  position:absolute;
+  width: 1440px;
+  height: 116px;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size:18px;
+
+}
+.link-dark {
+  color: #FFFFFF !important;
+}
+.dropdown-item{
+
+  width: 71.75px;
+  height: 21.29px;
+  padding:17.42px;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+}
+.dropdown-item:hover{
+  background-color: transparent!important;
+  color: #FFFFFF;
+}
+.dropdown-menu{
+  /* position: relative; */
+width: 117px;
+height: 180px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.btn-outline-light {
+  --bs-btn-color: #FFFFFF;
+  --bs-btn-border-color:#FFFFFF;
+  --bs-btn-hover-color: #333333;
+  --bs-btn-hover-bg: #FFFFFF;
+  --bs-btn-hover-border-color: #FFFFFF;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #FFFFFF;
+  --bs-btn-active-border-color: #FFFFFF;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #FFFFFF;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: ##FFFFFF;
+  --bs-gradient: none;
+  --bs-btn-font-family: 'Open Sans', sans-serif!important;
+    border-radius: 1px;
+    padding:21px 44px 22px 44px;
+    width:190px;
+    height: 63px;
+
+}
+
+
+.colored-section{
+  background-image:url('images/slika1.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1445px;
+  height: 800px;
+}
+.album-section{
+  width: 1445px;
+  height: 800px;
+}
+
+.naslov{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  color:#FFFFFF;
+  position:absolute;
+
+margin:329px 471px 417px 430px;
+}
+.dugme{
+    position:absolute;
+  margin:408px 659px 329px 596px;
+padding:21px 44px 22px 44px;
+font-weight: 700;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
+
+.krug{
+position: absolute;
+  width: 241px;
+  height: 241px;
+  border-radius: 100%;
+  border: 20px solid #FDE9E9;
+  padding:40px 28px 113px 28px;
+}
+
+.krug1{
+  left: 174px;
+  top: 853px;
+}
+
+.krug2{
+left: 599px;
+top: 853px;
+}
+.krug3{
+  left: 1025px;
+  top: 853px;
+}
+
+.title {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58.09px;
+color: #999999;
+width: 146px;
+height: 48px;
+  }
+
+.title1{
+
+  left: 225px;
+  top: 913px;
+
+}
+.title2{
+
+  left: 650px;
+  top: 913px;
+}
+.title3{
+  left: 1076px;
+  top: 913px;
+}
+
+
+.paragraf {
+
+width: 149px;
+height: 69px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 34px;
+text-align: center;
+color: #333333;
+}
+.paragraf1{
+
+left: 218px;
+top: 964px;
+}
+.paragraf2{
+left: 643px;
+top: 964px;
+}
+
+.paragraf3{
+left: 1069px;
+top: 964px;
+}
+.naslov2{
+  position: absolute;
+
+height: 54px;
+/* left: 556px;
+top: 1146px; */
+margin:1146px 551px 2691px 556px;
+
+font-family: 'Abril Fatface', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+letter-spacing: 0.05em;
+color: #333333;
+}
+
+.pic1{
+  position: absolute;
+width: 516px;
+height: 300px;
+left: 100px;
+top: 1247px;
+
+background: url(.jpg), #C4C4C4;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.pic2{
+  position: absolute;
+width: 294px;
+height: 300px;
+left: 626px;
+top: 1247px;
+
+background: url(.jpg), #C4C4C4;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.pic3{
+  position: absolute;
+width: 410px;
+height: 614px;
+left: 930px;
+top: 1247px;
+
+background: #C4C4C4;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.pic4{
+  position: absolute;
+width: 294px;
+height: 300px;
+left: 100px;
+top: 1561px;
+
+background: url(.jpg), #C4C4C4;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.pic5{
+  border: none;
+position: absolute;
+width: 518px;
+height: 300px;
+left: 404px;
+top: 1561px;
+
+background: url(.jpg), #C4C4C4;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.biografija{
+  background-image:url('images/slika2.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1445px;
+  height: 715px;
+
+left: 0px;
+top: 1961px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/slika2.png');
+}
+.bio{
+  position: absolute;
+width: 506px;
+height: 466px;
+margin:124px 839px 125px 100px;
+background: rgba(255, 255, 255, 0.6);
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+padding:92px 86px 92px 85px;
+
+}
+.bio-title{
+
+font-weight: 500;
+font-size: 24px;
+line-height: 37.33px;
+text-align:center;
+}
+.bio-par{
+
+font-weight: 300;
+font-size: 18px;
+line-height: 27.99px;
+color: #333333;
+}
+
+.karta{
+  background:url('images/karta.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1445px;
+  height: 715px;
+
+left: -5px;
+top: 2776px;
+}
+
+.map{
+
+margin:114px 99px 114px 838px;
+font-family: 'Open Sans', sans-serif;
+
+font-style: normal;
+padding:86px 89px 86px 83px;
+
+position: absolute;
+width: 508px;
+height: 487px;
+background: rgba(255, 255, 255, 0.6);
+}
+.map p{
+  font-weight: 400;
+}
+.map-title{
+
+font-size: 32px;
+font-weight: 700;
+line-height: 43.58px;
+text-align: left;
+color:#333333;
+}
+.stilSpan{
+  font-weight: 600;
+  line-height: 21.79px;
+  font-size: 16px;
+}
+.dno{
+position:absolute;
+width: 1445px;
+height: 400px;
+left: -5px;
+top: 3491px;
+background: #1E1B1B;
+}
+
+.naslovFooter{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  font-size:24px;
+  line-height: 32.38px;
+  color:#FFFFFF;
+}
+
+.nav-link{
+text-decoration: none;
+color: #FFFFFF;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+color:#FFFFFF;
+}
+
+.nav-item{
+  padding-bottom:18px;
+}
+.nav-link:hover{
+  color:#FFFFFF!important;
+}
+
+/* Portfolio stranice-svadbe,rodjendani,portreti */
+.svadbeSec{
+position: absolute;
+width: 1440px;
+height: 800px;
+left: 0.02px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/svadbe.png');
+}
+.portfolioNav{
+
+  position: absolute;
+  width: 1440px;
+  height: 116px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.rodjendanSec{
+  position: absolute;
+width: 1440px;
+height: 800px;
+left: 0.02px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/rodjendani.png');
+
+}
+
+.straniceFooter{
+position: absolute;
+width: 1445px;
+height: 400px;
+left: -5px;
+top: 800px;
+background: #1E1B1B;
+}
+
+.portretSec{
+  position: absolute;
+width: 1440px;
+height: 800px;
+left: 0px;
+top: 0px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/portret.png');
+}
+
+.paroviSec{
+  position: absolute;
+width: 1440px;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/parovi.png');
+}
+
+.paroviGalerija{
+  position: absolute;
+  width:1300px;
+  height:1303px;
+  background-color:#ffffff;
+}
+.paroviFooter{
+  position: absolute;
+width: 1445px;
+height: 400px;
+left: 0px;
+top: 2103px;
+background: #1E1B1B;
+}
+
+
+.paroviNaslov{
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+letter-spacing: 0.05em;
+color: #333333;
+
+position: absolute;
+width: 156px;
+height: 54px;
+left: 642px;
+top: 850px;
+}
+
+.pagination {
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  margin-left:350px;
+  position: absolute;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-top:1px solid #333333;
+  border-bottom:1px solid #333333;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+}
+
+.pagination a.active {
+  background-color: #000000;
+  color: #ffffff;
+
+
+}
+
+/* Rezervacija */
+.rezervacijaSec{
+position: absolute;
+width: 1440px;
+height: 800px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/rezervacija.png');
+}
+
+.naslovRezervacija{
+font-family: 'Abril Fatface', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+margin:260px 571px 50px 591px;
+}
+
+.dugme1{
+    position:absolute;
+  margin:50px 47px 50px 631px;
+padding:2px 110px 21px 10px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+}
+
+
+
+.input-group-text {
+  border: 0px;
+  background: transparent!important;
+}
+
+input{
+  width: 190px!important;
+  height:63px!important;
+
+    background: transparent!important;
+
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+      color:#ffffff!important;
+    padding:10px!important;
+
+    background: rgba(0, 0, 0, 0.1);
+    background-image: url("images/izbornik.png");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0!important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+
+.form-select {
+  display: block;
+  width: 190px!important;
+  height:63px!important;
+
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFFFFF;
+
+  background: rgba(0, 0, 0, 0.1);
+  background-image: url("images/izbornik.png");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0rem;
+}
+
+select option{
+  background-color: #CFCFCF!important;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {       /*dodavanje strelice umjesto defaultne ikone u desnom uglu*/
+     background-image: url("images/izbornik.png");
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+     background-image: url("images/izbornik.png");
+}
+input[type="text"]::-webkit-calendar-picker-indicator {
+     background-image: url("images/izbornik.png");
+}
+
+input[type="text"]::placeholder {
+  color: #ffffff;
+  opacity: 1;
+   background-image: url("images/izbornik.png");
+   background-position: 210px 2px;
+      background-repeat: no-repeat;/* Firefox */
+}
+
+input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #ffffff;
+  background-image: url("images/izbornik.png");
+  background-position:210px 10px;
+      background-repeat: no-repeat;
+}
+
+input[type="text"]::-ms-input-placeholder { /* Microsoft Edge */
+ color: #ffffff;
+  background-image: url("images/izbornik.png");
+  background-position: 210px 10px;
+      background-repeat: no-repeat;
+}
+
+
+
+/* popup rezervacija*/
+.popup{
+
+  width:300px;
+  height:200px;
+  background: #FFFFFF;
+box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
+position:relative;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+text-align: center;
+color: #333333;
+visibility: hidden;
+left:20%;
+top:50%;
+
+position:absolute;
+}
+.popupNaslov{
+
+  padding:35px 27px 26px 27px;
+font-size: 20px;
+line-height: 27px;
+
+}
+.popupButton{
+border: 1px solid #333333;
+font-size: 16px;
+line-height: 22px;
+background-color:#ffffff!important;
+padding:13px 13px 15px 14px;
+}
+.open-popup{
+  visibility: visible;
+}

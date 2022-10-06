@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rezervacija</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@300;400;500;600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+
+<section class="rezervacijaSec">
+  <div class="container">
+
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between   portfolioNav">
+   <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+   <img src="images/Logo.png" class="logo" alt="logo">
+   </a>
+
+   <ul class="nav justify-content-center " style="margin-top:47px;">
+     <li><a href="index.html" class="nav-link link-dark">Početna</a></li>
+     <li class="nav-item dropdown">
+   <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Portfolio</a>
+   <ul class="dropdown-menu">
+     <li><a class="dropdown-item" href="svadbe.html">Svadbe</a></li>
+     <li><a class="dropdown-item" href="rodjendani.html">Rođendani</a></li>
+     <li><a class="dropdown-item" href="portreti.html">Portreti</a></li>
+     <li><a class="dropdown-item" href="parovi.html">Parovi</a></li>
+   </ul>
+ </li>
+     <li><a href="#" class="nav-link  link-dark">Kontakt</a></li>
+     <li><a href="#" class="nav-link  link-dark">Profil</a></li>
+  </ul>
+
+   <div >
+     <button type="button" class="btn btn-outline-light" style="margin-right:100px;" onclick="location.href='rezervacija.html';" >REZERVACIJA</button>
+
+   </div>
+ </header>
+
+
+ <h1 class="naslovRezervacija">REZERVACIJA</h1>
+
+ <form class="row "  action="" method="POST">
+
+   <div class="col-lg-3" style="margin-left:200px;">
+     <label class="visually-hidden" for="autoSizingInput">Datum</label>
+<div class="input-group">
+  <div class="input-group-text"style="margin-right:10px;"><img src="images/kalendar.png" alt=""></div>
+  <input type="text" class="form-control" id="autoSizingInput" placeholder="Datum..." onfocus="(this.type='date')">
+</div>
+   </div>
+
+   <div class="col-lg-3">
+     <label class="visually-hidden" for="autoSizingInputGroup">Vrijeme</label>
+     <div class="input-group">
+       <div class="input-group-text" style="margin-right:5px;"><img src="images/sat.png" alt=""></div>
+       <input type="text" class="form-control " placeholder="Vrijeme..." onfocus="(this.type='time')" >
+
+     </div>
+   </div>
+
+   <div class="col-lg-3">
+     <label class="visually-hidden" for="autoSizingSelect">Broj osoba</label>
+     <div class="input-group">
+       <div class="input-group-text"style="margin-right:10px;"><img src="images/people.png" alt=""></div>
+     <select class="form-select"  id="autoSizingSelect">
+       <option selected >Broj osoba...</option>
+       <option value="1" >1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+     </select>
+   </div>
+   </div>
+
+   <div class="col-lg-12 ">
+
+     <button type="button"  style="margin-top:50px;margin-left:631px" class="btn btn-outline-light " onclick="openPopup()">SPREMI</button>
+<div class="popup" id="popup">
+  <h4 class="popupNaslov">Da li ste sigurni da želite spremiti rezervaciju?</h4>
+  <button type="button" name="button" class="popupButton" style="margin-right:12px;" onclick="openPopup1()">DA</button>
+    <button type="button" name="button" class="popupButton" onclick="closePopup()">NE</button>
+</div>
+
+<div class="popup" id="popup1">
+  <h4 class="popupNaslov">Čestitamo,vaša narudžba je spremljena.</h4>
+  <button type="button" name="button" class="popupButton" style="margin-right:12px;" onclick="pogledaj();">POGLEDAJ</button>
+    <button type="button" name="button" class="popupButton" onclick="closePopup1()">NAZAD</button>
+</div>
+   </div>
+
+ </form>
+
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="straniceFooter">
+  <div  style="height:32px; width:196px;">
+    <img src="images/logo.png" style="margin-top:110px;margin-bottom:239px;margin-left:136px; margin-right:119px;"alt="">
+  </div>
+
+
+  <div  style="margin:73px 874px 105px 451px;position:absolute;">
+    <h5 class="naslovFooter">STRANICE</h5>
+    <ul class="nav flex-column ">
+      <li class="nav-item mb-2"><a href="#" class="nav-link  p-0 ">Početna</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link  p-0 ">Portfolio</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link  p-0 ">Kontakt</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link  p-0  ">Profil</a></li>
+    </ul>
+  </div>
+
+  <div style=" margin:73px 517px 145px 766px;position:absolute;">
+    <h5 class="naslovFooter">INFORMACIJE</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Adresa</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Email</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Telefon</a></li>
+    </ul>
+  </div>
+
+  <div style="margin:73px 115px 218px 1082px;position:absolute;">
+    <h5 class="naslovFooter">DRUŠTVENE MREŽE</h5>
+    <ul class="list-unstyled d-flex">
+      <li class="nav-item" style="padding-right:42px;"><a href="#" ><img src="images/instaW.png" alt="Instagram"></a></li>
+      <li class="nav-item" style="padding-right:42px;"><a href="#" ><img src="images/faceW.png"    alt="Facebook"></a></li>
+      <li class="nav-item" style="padding-right:42px;"><a href="#" ><img src="images/v3W.png"    alt="/"></a></li>
+    </ul>
+  </div>
+
+</footer>
+<script >
+  let popup=document.getElementById('popup');
+let popup1=document.getElementById('popup1');
+
+  function openPopup(){
+    popup.classList.add("open-popup");
+  }
+
+  function closePopup(){
+    popup.classList.remove("open-popup");
+  }
+
+  function openPopup1(){
+    popup1.classList.add("open-popup");
+  }
+  function closePopup1(){
+    popup1.classList.remove("open-popup");
+  }
+
+  function pogledaj(){
+    window.location.href = "index.html";
+  }
+
+
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+</body>
+  </html>
